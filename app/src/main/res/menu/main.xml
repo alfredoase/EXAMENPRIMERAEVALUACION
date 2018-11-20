@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/men_preferences"
+        android:title="@string/txt_men_settings"/>
+
+    <item
+        android:id="@+id/men_profile"
+        android:title="@string/txt_men_profile"/>
+
+    <item
+        android:id="@+id/men_signout"
+        android:title="@string/txt_men_signout"/>
+
+    <item
+        android:id="@+id/men_addprod"
+        android:title="@string/txt_men_addprod"/>
+
+    <item android:id="@+id/search"
+            android:title="@string/hint_search"
+            android:icon="@android:drawable/ic_menu_search"
+            app:showAsAction="collapseActionView|ifRoom"
+            app:actionViewClass="android.support.v7.widget.SearchView" />
+
+</menu>

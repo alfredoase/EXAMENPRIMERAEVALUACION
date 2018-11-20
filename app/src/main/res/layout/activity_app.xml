@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- THIS IS THE ACTIVITY TO SHOW THE PRODUCTS AND SEARCH BY DIFFERENTS FILTERS -->
+<!-- WITH A GENERAL LINEARLAYOUT AND 2 MORE TO HAVE A ORDERED STRUCTURE -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_et"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- THIS LINEAR LAYOUT CONTAINS THE NECESSARY TO DO SEARCHES -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_head">
+
+        <RadioGroup
+            android:id="@+id/rg_searchby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_tech"
+                android:text="@string/txt_tech_catprod"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_car"
+                android:text="@string/txt_car_catprod" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_home"
+                android:text="@string/txt_home_catprod" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_user"
+                android:text="@string/txt_user_catprod" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_reset"
+                android:text="@string/txt_user_resetcat" />
+
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_search"
+            android:hint="Search..."
+            style="@style/StyleEditET"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_search"
+            android:text="Search"/>
+
+        <Button
+            android:id="@+id/bt_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_share"/>
+
+        <Button
+            android:id="@+id/bt_rateProductActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rateProductText"/>
+
+    </LinearLayout>
+
+    <!-- IN THIS LINEARLAYOUT THERE ARE THE RECYCLERVIEW TO SHOW THE PRODUCTS -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_rv"
+        android:orientation="vertical">
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Activities.AppActivity"
+            android:orientation="vertical"
+            android:id="@+id/rv_appActivity">
+
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

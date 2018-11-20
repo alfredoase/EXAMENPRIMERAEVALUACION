@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">QuickTrade</string>
+
+    <!-- IN THIS FILE THERE ARE ALL THE TEXTS IN THE APP  -->
+
+    <!-- THE NEXT STRINGS ARE THE TEXT ON THE EDITEXTS -->
+    <string name="txt_et_username">Username</string>
+    <string name="txt_et_password">Password</string>
+    <string name="txt_et_name">Name</string>
+    <string name="txt_et_surnames">Surnames</string>
+    <string name="txt_et_birthday">30/05/1996</string>
+    <string name="txt_et_phone">608 323 121</string>
+    <string name="txt_et_email">Email</string>
+    <string name="txt_bt_login">Login!</string>
+    <string name="txt_bt_signup">Register!</string>
+    <string name="txt_bt_editinfor">Save!</string>
+    <string name="txt_tv_signup">"Don't have an account? Click here"</string>
+    <string name="txt_profile">PROFILE INFORMATION</string>
+    <string name="txt_signup">SIGN UP!</string>
+    <string name="txt_addproduct">ADD YOUR PRODUCT!</string>
+    <string name="txt_edproduct">EDIT PRODUCT!</string>
+    <string name="txt_bt_edit_prod">Save!</string>
+    <string name="txt_bt_delete_prod">Delete product!</string>
+    <string name="hint_search">Search...</string>
+
+    <!-- THESE STRING ARE THE TEXT IN THE OPTIONMENU -->
+    <string name="txt_men_settings">Settings</string>
+    <string name="txt_men_profile">Profile</string>
+    <string name="txt_men_addprod">Add product!</string>
+    <string name="txt_men_signout">Sign out!</string>
+
+    <!-- TEXT IN THE PREFERENCES PAGE -->
+    <string name="txt_set_cat_theme">Theme</string>
+
+    <string name="txt_set_tit_back">Background color</string>
+    <string name="txt_set_msg_back">Select the background color...</string>
+
+    <string name="txt_set_tit_lng">Language</string>
+    <string name="txt_set_msg_lng">Select your lang</string>
+
+    <string name="txt_set_tit_rows">List or Slide</string>
+    <string name="txt_set_msg_rows">True (list), false (slide)</string>
+
+    <!-- OTHER TEXT ON THE APP LIKE THE CATEGORIES OR THE TEXTVIEWS -->
+    <string name="txt_tech_catprod">Technology</string>
+    <string name="txt_car_catprod">Car</string>
+    <string name="txt_home_catprod">Home</string>
+    <string name="txt_user_catprod">User</string>
+    <string name="txt_user_resetcat">Reset filters</string>
+    <string name="txt_et_nameprod">Product name...</string>
+    <string name="txt_et_descriptionprod">Product description...</string>
+    <string name="txt_et_locationprod">Location to collect...</string>
+
+    <string name="userId">userId</string>
+
+    <!-- THIS IS A WELCOME MESSAGE WHEN YOU OPEN THE APP -->
+    <string name="welcome_message">¡Welcome to QuickTrade!</string>
+
+    <!-- TEXT OF THE SHARE BUTTON -->
+    <string name="bt_share">SHARE THE APP!</string>
+
+    <!-- SHARE TEXT -->
+    <string name="shareText">Download the app, Quicktrade. Click in the link https://www.quicktrade.com/downloads</string>
+    <string name="titleShare">Share the app: </string>
+
+    <!-- DEFAULT ERROR MESSAGE -->
+    <string name="error">There was an error!!!!</string>
+
+    <!-- RATE BUTTON TEXT -->
+    <string name="rateProductText">RATE A PRODUCT!</string>
+
+    <!-- RATE PRODUCT HEADER TEXT -->
+    <string name="txt_rateproduct_header">RATE THE PRODUCT BELOW!</string>
+
+    <!-- TEXT ABOUT THE RATE PRODUCT ACTIVITY -->
+    <string name="txt_rateproduct_title">Default title.....</string>
+    <string name="txt_rateproduct_description">Default description.....</string>
+    <string name="txt_rateproduct_location">Default location.....</string>
+    <string name="txt_rateproduct_price">Default price.....</string>
+    <string name="txt_rateproduct_setpuntuation">Set a puntuation (0 to 10)...</string>
+
+    <!-- TEXTVIEW TEXT PUNTUATION -->
+    <string name="tv_text_puntuation">0</string>
+
+</resources>
+

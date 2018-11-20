@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "149116823493",
+    "firebase_url": "https://fbquicktrade-26913.firebaseio.com",
+    "project_id": "fbquicktrade-26913",
+    "storage_bucket": "fbquicktrade-26913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149116823493:android:9a39bad759f09daf",
+        "android_client_info": {
+          "package_name": "com.example.user.quicktrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149116823493-cpkecffo6rru3vr0pjlgfmid5ecji6qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.quicktrade",
+            "certificate_hash": "f61fc67e78588051eb613524d33f4e764f4dc778"
+          }
+        },
+        {
+          "client_id": "149116823493-i6enikmsccj3ic2v3u7lqkdtt0acu8cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcR_yMU5N-3xQcwnmQmqG3SKy6EMHUZUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149116823493-i6enikmsccj3ic2v3u7lqkdtt0acu8cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

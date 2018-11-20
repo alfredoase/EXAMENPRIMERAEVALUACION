@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- THIS ACTIVITY HAS THE PROFILE INFORMATION -->
+<!-- WITH A GENERAL LINEARLAYOUT AND 2 MORE TO HAVE A ORDERED STRUCTURE -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ProfileActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <!-- THE HEADER -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/profile"
+            android:text="@string/txt_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"/>
+        <View
+            android:layout_marginTop="-3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <!-- THE INFORMATION ABOUT THE PROFILE -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/et_pr_name"
+            android:hint="@string/txt_et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_pr_surnames"
+            android:hint="@string/txt_et_surnames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_pr_email"
+            android:hint="@string/txt_et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_pr_username"
+            android:hint="@string/txt_et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_pr_password"
+            android:hint="@string/txt_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/et_pr_birthday"
+            android:hint="@string/txt_et_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"/>
+
+        <EditText
+            android:id="@+id/et_pr_phone"
+            android:hint="@string/txt_et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"/>
+
+        <Button
+            android:id="@+id/bt_editinfor"
+            android:text="@string/txt_bt_editinfor"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"/>
+
+    </LinearLayout>
+
+</LinearLayout>

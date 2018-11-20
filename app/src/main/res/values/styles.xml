@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="StyleItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:colorBackground">#023453</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="StyleItem.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="StyleItem.Description">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="StyleItem.Price">
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="StyleItem.Cat">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="StyleItem.User">
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="StyleItem.Fav">
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="StyleEditET">
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

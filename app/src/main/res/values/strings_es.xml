@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name_es">QuickTrade</string>
+
+
+    <!-- TODOS LOS TEXTOS DE LA APLICACION ESTAN EN ESTE ARCHIVO  -->
+    <string name="txt_et_username_es">Nombre de usuario</string>
+    <string name="txt_et_password_es">Contraseña</string>
+    <string name="txt_et_name_es">Nombre</string>
+    <string name="txt_et_surnames_es">Apellidos</string>
+    <string name="txt_et_birthday_es">30/05/1996</string>
+    <string name="txt_et_phone_es">608 323 121</string>
+    <string name="txt_et_email_es">Email</string>
+    <string name="txt_bt_login_es">Entra!</string>
+    <string name="txt_bt_signup_es">Registrate!</string>
+    <string name="txt_bt_editinfor_es">Guardar!</string>
+    <string name="txt_tv_signup_es">"¿No tienes cuenta? Click aquí"</string>
+    <string name="txt_profile_es">INFORMACION DEL PERFIL</string>
+    <string name="txt_signup_es">REGISTRATE!</string>
+    <string name="txt_addproduct_es">AÑADE PRODUCTO!</string>
+    <string name="txt_bt_edit_prod_es">Guardar!</string>
+    <string name="txt_bt_delete_prod_es">Borrar!</string>
+    <string name="hint_search_es">Busca...</string>
+
+    <string name="txt_men_settings_es">Ajustes</string>
+    <string name="txt_men_profile_es">Perfil</string>
+    <string name="txt_men_addprod_es">Añadir producto!</string>
+    <string name="txt_men_signout_es">Desconectarse!</string>
+
+
+    <string name="txt_set_cat_theme_es">Tema</string>
+
+    <string name="txt_set_tit_back_es">Color de fondo</string>
+    <string name="txt_set_msg_back_es">Selecciona el color de fondo...</string>
+
+    <string name="txt_set_tit_lng_es">Lenguaje</string>
+    <string name="txt_set_msg_lng_es">Selecciona tu lengua</string>
+
+    <string name="txt_set_tit_rows_es">Fila o columna</string>
+    <string name="txt_set_msg_rows_es">True (fila), false (columna)</string>
+
+    <string name="txt_tech_catprod_es">Tecnologia</string>
+    <string name="txt_car_catprod_es">Coche</string>
+    <string name="txt_home_catprod_es">Casa</string>
+    <string name="txt_user_catprod_es">Usuario</string>
+    <string name="txt_et_nameprod_es">Nombre del producto...</string>
+    <string name="txt_et_descriptionprod_es">Descripcion del producto...</string>
+    <string name="txt_et_locationprod_es">Lugar donde recoger...</string>
+
+    <string name="userId_es">userId</string>
+
+</resources>
+

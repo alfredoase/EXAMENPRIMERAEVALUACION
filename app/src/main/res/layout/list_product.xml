@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="15dp"
+    android:id="@+id/rl_lista"
+    android:orientation="vertical"
+    android:background="@drawable/background_item">
+
+    <ImageView
+        android:id="@+id/iv_imageprod"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/icono"
+        android:paddingLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_titleprod"
+        style="@style/StyleItem.Title"/>
+
+    <TextView
+        android:id="@+id/tv_descriptionprod"
+        style="@style/StyleItem.Description"/>
+
+    <TextView
+        android:id="@+id/tv_priceprod"
+        style="@style/StyleItem.Price"/>
+
+    <TextView
+        android:id="@+id/tv_catprod"
+        style="@style/StyleItem.Cat"/>
+
+    <TextView
+        android:id="@+id/tv_userprod"
+        style="@style/StyleItem.User"/>
+
+    <TextView
+        android:id="@+id/tv_puntuation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text_puntuation"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/tv_favorito"
+        style="@style/StyleItem.Fav"/>
+
+</RelativeLayout>

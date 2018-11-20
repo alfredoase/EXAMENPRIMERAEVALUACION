@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/txt_set_cat_theme">
+
+        <ListPreference
+            android:id="@+id/set_back"
+            android:key="set_back"
+            android:title="@string/txt_set_tit_back"
+            android:summary="@string/txt_set_msg_back"
+            android:entries="@array/listColors"
+            android:entryValues="@array/listColors"/>
+
+        <ListPreference
+            android:id="@+id/set_lng"
+            android:key="set_lng"
+            android:title="@string/txt_set_tit_lng"
+            android:summary="@string/txt_set_msg_lng"
+            android:entries="@array/listLanguages"
+            android:entryValues="@array/listLanguages"/>
+
+        <SwitchPreference
+            android:id="@+id/set_rows"
+            android:key="set_rows"
+            android:title="@string/txt_set_tit_rows"
+            android:summary="@string/txt_set_msg_rows"
+            android:enabled="true"
+            android:checked="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

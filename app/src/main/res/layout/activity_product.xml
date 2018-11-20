@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- THIS IS THE ACTIVITY TO EDIT THE PRODUCT -->
+<!-- WITH A GENERAL LINEARLAYOUT AND 2 MORE TO HAVE A ORDERED STRUCTURE -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ProductActivity"
+    android:orientation="vertical">
+
+    <!-- THIS LAYOUT IS THE HEADER OF THE PAGE -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:text="@string/txt_edproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:gravity="center_horizontal"/>
+        <View
+            android:layout_marginTop="-3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <!-- ON THIS LAYOUT THERE ARE THE NECESARIES VIEWS TO EDIT THIS INFORMATION -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/iv_setimage"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lando_calrissian"/>
+
+        <RadioGroup
+            android:id="@+id/rbprodcat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbprodtech"
+                android:text="@string/txt_tech_catprod" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbprodcar"
+                android:text="@string/txt_car_catprod" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbprodhome"
+                android:text="@string/txt_home_catprod" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etprodname"
+            android:hint="@string/txt_et_nameprod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/npprodprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etproddescription"
+            android:hint="@string/txt_et_descriptionprod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etprodlocation"
+            android:hint="@string/txt_et_locationprod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btprod_ed"
+            android:text="@string/txt_bt_edit_prod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btprod_del"
+            android:text="@string/txt_bt_delete_prod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btprod_fav"
+            android:text="AÑADIR A FAVORITO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
